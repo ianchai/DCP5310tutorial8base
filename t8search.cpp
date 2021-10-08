@@ -65,14 +65,15 @@ void readData (istream &inFile, ivdata data[],int N){
 	}
 }
 
-// Put your name and ID here.
-
 //print the data in 2-column format
 void printData (ivdata data[],int N){
 	int i;
 	for (i=0;i<N;i++)
     	cout<<data[i].volt<<'\t'<<data[i].amp<<endl;
 }
+
+/******************************************************************/
+// Put your name and ID here.
 
 int linSearch (float x, ivdata data[],int N){
 	//Implement linear search function
